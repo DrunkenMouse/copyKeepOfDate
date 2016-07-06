@@ -15,6 +15,7 @@
 		166F38B71D2BA06E001E7C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166F38B51D2BA06E001E7C91 /* LaunchScreen.storyboard */; };
 		166F38C21D2BA06E001E7C91 /* _________ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F38C11D2BA06E001E7C91 /* _________ViewTests.m */; };
 		166F38CD1D2BA06E001E7C91 /* _________ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F38CC1D2BA06E001E7C91 /* _________ViewUITests.m */; };
+		166F391E1D2C96CA001E7C91 /* ButtonOfWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F391D1D2C96CA001E7C91 /* ButtonOfWeek.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		166F38C81D2BA06E001E7C91 /* 根据日期显示不同的ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "根据日期显示不同的ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		166F38CC1D2BA06E001E7C91 /* _________ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________ViewUITests.m"; sourceTree = "<group>"; };
 		166F38CE1D2BA06E001E7C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166F391C1D2C96CA001E7C91 /* ButtonOfWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonOfWeek.h; sourceTree = "<group>"; };
+		166F391D1D2C96CA001E7C91 /* ButtonOfWeek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonOfWeek.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				166F38B51D2BA06E001E7C91 /* LaunchScreen.storyboard */,
 				166F38B81D2BA06E001E7C91 /* Info.plist */,
 				166F38A71D2BA06E001E7C91 /* Supporting Files */,
+				166F391C1D2C96CA001E7C91 /* ButtonOfWeek.h */,
+				166F391D1D2C96CA001E7C91 /* ButtonOfWeek.m */,
 			);
 			path = "根据日期显示不同的View";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				166F38AF1D2BA06E001E7C91 /* ViewController.m in Sources */,
 				166F38AC1D2BA06E001E7C91 /* AppDelegate.m in Sources */,
+				166F391E1D2C96CA001E7C91 /* ButtonOfWeek.m in Sources */,
 				166F38A91D2BA06E001E7C91 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +507,7 @@
 				166F38D31D2BA06E001E7C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		166F38D41D2BA06E001E7C91 /* Build configuration list for PBXNativeTarget "根据日期显示不同的ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				166F38D61D2BA06E001E7C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		166F38D71D2BA06E001E7C91 /* Build configuration list for PBXNativeTarget "根据日期显示不同的ViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				166F38D91D2BA06E001E7C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
